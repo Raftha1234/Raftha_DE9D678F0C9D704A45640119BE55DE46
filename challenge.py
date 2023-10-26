@@ -5,7 +5,7 @@ def isleepyear(year):
   else:
     return False
 
-year=int(input("enter the year :"))
+year=int(input("enter the year:"))
 
 if isleepyear(year):
   print(year,"is a leep year")
